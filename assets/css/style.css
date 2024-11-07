@@ -53,3 +53,18 @@
     border-color: #3B2F2F;
     margin-top: 20px; /* Add margin for better spacing */
 }
+
+.our-services .card {
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.our-services .card:hover {
+    transform: translateY(-10px); /* Slightly lift the card on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
+}
