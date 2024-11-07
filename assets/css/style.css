@@ -1,0 +1,19 @@
+/* Navbar */
+.navbar {
+    color: #3B2F2F;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link {
+    font-weight: bold;
+    color: #3B2F2F; /* Add this line */
+}
+.navbar-brand img {
+    width: 30px;
+    margin-right: 10px;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #3B2F2F; /* Add this line */
+}
