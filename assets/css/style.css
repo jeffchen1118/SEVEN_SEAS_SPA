@@ -59,12 +59,46 @@
     border: none; /* Remove border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
     transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .our-services .card:hover {
     transform: translateY(-10px); /* Slightly lift the card on hover */
 }
 
+/* wrong  */
+/* .our-services .card-body {
+    /* flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+} */
+
+.our-services .card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
+}
+
+@media (min-width: 992px) {
+    .our-services .card-body {
+        min-height: 184px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .our-services .card-body {
+        min-height: 136px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .our-services .card-body {
+        /* Add any additional styles for 1400px and above if needed */
+    }
 }
