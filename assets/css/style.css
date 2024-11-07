@@ -22,7 +22,7 @@
     position: relative;
     background: url('../images/AIheroimage.png') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 50vh; /* Adjusted to 50% of the display height */
     color: #FFEBD4;
 }
 .hero::before {
@@ -39,11 +39,17 @@
     position: relative;
     z-index: 2;
     max-width: 600px;
+    padding: 20px; /* Add padding for better responsiveness */
 }
 .hero h1 {
     font-family: 'Handlee', cursive;
+    font-size: 2.5rem; /* Adjust font size for responsiveness */
+}
+.hero p {
+    font-size: 1.25rem; /* Adjust font size for responsiveness */
 }
 .hero .btn {
     color: #3B2F2F;
     border-color: #3B2F2F;
+    margin-top: 20px; /* Add margin for better spacing */
 }
