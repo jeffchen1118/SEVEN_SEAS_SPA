@@ -14,6 +14,7 @@
     <!-- Custom css link -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Seven Seas Spa</title>
+
 </head>
 
 <body>
@@ -30,16 +31,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="aboutus.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,17 +48,57 @@
     </nav>
 
     <!-- Hero Section -->
-    <Header class="hero d-flex align-items-center justify-content-center text-center">
+    <header class="hero d-flex align-items-center justify-content-center text-center">
         <div class="container">
-            <h1 class="display-4">Thank you</h1>
-            <p class="lead">We'd get in touch with you.</p>
-            <a href="index.html" class="btn btn-light btn-lg">Return to Home</a>
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Improving health and wellbeing through wellness services.</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
         </div>
-    </Header>
-
-    <!-- Main Section -->
-    <main class="container my-5" style="min-height: 50vh;">
-        <!-- Content removed -->
+    </header>
+    <main>
+        <section id="our-mission" class="container my-5">
+            <h2 class="text-center mb-4">Our Mission</h2>
+            <p class="text-center">Our mission is to provide exceptional wellness services that improve the health and wellbeing of our clients.</p>
+        </section>
+        <section id="our-team" class="container my-5">
+            <h2 class="text-center mb-4">Our Team</h2>
+            <p class="text-center">Meet the dedicated team members who make it all possible.</p>
+        </section>
+        <section id="members" class="container my-5">
+            <h2 class="card-brand text-center mb-4">Members</h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm border-0 text-center">
+                        <img src="assets/images/jane_smith.png" class="card-img-top" alt="Jane Smith"
+                            style="max-width: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <!-- Empty card content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm border-0 text-center">
+                        <img src="assets/images/john_doe.png" class="card-img-top" alt="John Doe"
+                            style="max-width: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <!-- Empty card content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm border-0 text-center">
+                        <img src="assets/images/emily_johnson.png" class="card-img-top" alt="Emily Johnson"
+                            style="max-width: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Emily Johnson</h5>
+                            <!-- Empty card content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
