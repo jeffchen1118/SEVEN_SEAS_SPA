@@ -68,13 +68,6 @@
     transform: translateY(-10px); /* Slightly lift the card on hover */
 }
 
-/* wrong  */
-/* .our-services .card-body {
-    /* flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-} */
 
 .our-services .card img {
     max-height: 200px;
