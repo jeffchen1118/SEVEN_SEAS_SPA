@@ -102,3 +102,17 @@ h1, h2, h3, h4, h5, h6 {
         /* Add any additional styles for 1400px and above if needed */
     }
 }
+
+footer {
+    background-color: #6F4E37 !important;
+    color: #FFEBD4;
+}
+
+footer a {
+    color: #FFEBD4;
+}
+
+footer a:hover {
+    color: #FFEBD4;
+    opacity: 0.8;
+}
