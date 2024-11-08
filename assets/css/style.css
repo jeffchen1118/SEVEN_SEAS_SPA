@@ -90,11 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media (min-width: 1400px) {
-    .our-services .card-body {
-        /* Add any additional styles for 1400px and above if needed */
-    }
-}
+
 
 footer {
     background-color: #6F4E37 !important;
